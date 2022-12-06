@@ -1,0 +1,216 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+/******big-heading******/
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+/*******section-heading******/
+.section-heading{
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/***** container-fluid  *******/
+.container-fluid{
+   padding: 7% 15%;
+}
+
+/******* colored-section *****/
+.colored-section{
+  background-color: #ff4c68;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/*********************************************   id= title  ********************************************************************* */
+#title {
+  text-align: left;
+  
+}
+#title .container-fluid{       /**** in this case 1). If there is space btw both selectors we read frm = right to left  [eg. padding is 3% 15% 7% of container-fluid(child) contain in an id called title(parent) 2). But if there is no space then we read frm= = l to r called as a selector called title as well as selector called container-fluid contains an x amount of padding ****/
+  padding: 3% 15% 7%;
+}
+                                              
+
+.iphone {
+  width: 20rem;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+.Dowaload-button1 {
+  margin: 5% 3% 5% 0%;
+}
+
+/************* @media  *****************/
+
+@media (max-width: 1028px){
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+
+
+/************************************************************** id= features  ***********************************************************************/
+#features {
+  position: relative;
+  z-index: 1;
+}
+.heading-new {
+  padding-top: 10%;
+}
+.para {
+  color: #8f8f8f;
+}
+
+.featured-boxes {
+  padding: 5%;
+  text-align: center;
+}
+.features-icon {
+  color: orange;
+}
+.features-icon:hover {
+  color: red;
+}
+
+
+/**************************************************************** id= testimonials ************************************************************************************/
+#testimonials {
+  background-color: orange;
+}
+
+em {
+  color: azure;
+}
+
+.testimonials-image {
+  margin: 20px;
+  border-radius: 100%;
+  width: 12%;
+}
+
+
+/*************************************************************** **** id= press **************************************************************************/
+#press {
+  background-color: orange;
+  padding-bottom: 4%;
+}
+.image-press {
+  width: 15%;
+  margin: 20px 20px 10px;
+}
+
+/*************************************************************** **** id= pricing **************************************************************************/
+
+#pricing {
+  padding: 100px;
+}
+.pricing-heading{
+  color: black;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.pricing-sub-heading {
+  font-size: 1.2rem;
+  color: grey;
+}
+.col {
+  padding: 3% 2%;
+}
+
+/*************************************************************** **** id= cta **************************************************************************/
+
+#cta{
+  background-color:#ff4c68;
+}
+
+.Dowaload-button2 {
+  margin: 5% 3% 5% 0%;
+}
+
+/*************************************************************** **** id= footer **************************************************************************/
+
+#footer{
+  background-color: #fff;
+}
+
+.footer-icon{
+  font-size: 2rem;
+  padding: 3%;
+}
+.footer-icon:hover{
+    color: rgb(7, 119, 46);
+}
+.footer-para{
+  color: rgb(96, 98, 100);
+  font-size: 1.3rem;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p{
+  font-family:"Montserrat-Bold", sans-serif;
+}
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
